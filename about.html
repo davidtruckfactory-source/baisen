@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>About Us | Jinan Bison Machinery Co., Ltd.</title>
+  <meta name="description" content="Learn about Jinan Bison Machinery - professional commercial vehicle exporter from China.">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: { primary: '#16529c', secondary: '#1F3A68', accent: '#0ea5e9' },
+          fontFamily: { sans: ['Poppins', 'system-ui', 'sans-serif'], heading: ['Anton', 'Impact', 'sans-serif'] }
+        }
+      }
+    }
+  </script>
+  <link href="https://fonts.googleapis.com/css2?family=Anton&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
+<body class="font-sans text-gray-800 bg-white">
+  <header id="header" class="fixed top-0 left-0 right-0 z-50 bg-white/95 backdrop-blur-md shadow-sm">
+    <div class="container mx-auto px-4 lg:px-8">
+      <div class="flex items-center justify-between h-16 lg:h-20">
+        <a href="index.html" class="flex items-center gap-3">
+          <img src="images/logo.png" alt="Jinan Bison Machinery" class="h-14 lg:h-16 w-auto">
+          <div class="hidden sm:block">
+            <div class="text-2xl lg:text-3xl font-bold text-secondary tracking-tight">BISON</div>
+            <div class="text-sm lg:text-base text-gray-500 -mt-0.5">MACHINERY</div>
+          </div>
+        </a>
+        <nav class="hidden lg:flex items-center gap-8">
+          <a href="index.html" class="text-gray-700 hover:text-primary font-medium">Home</a>
+          <a href="products.html" class="text-gray-700 hover:text-primary font-medium">Products</a>
+          <a href="news.html" class="text-gray-700 hover:text-primary font-medium">News</a>
+          <a href="about.html" class="text-primary font-medium">About Us</a>
+          <a href="contact.html" class="text-gray-700 hover:text-primary font-medium">Contact Us</a>
+        </nav>
+        <a href="contact.html" class="hidden lg:inline-block bg-primary hover:bg-secondary text-white px-5 py-2.5 rounded-full font-medium text-sm">Get a Quote</a>
+        <button id="mobile-menu-btn" class="lg:hidden p-2" aria-label="Menu"><svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"/></svg></button>
+      </div>
+    </div>
+    <div id="mobile-menu" class="lg:hidden hidden bg-white border-t">
+      <div class="container mx-auto px-4 py-4 space-y-2">
+        <a href="index.html" class="block py-2">Home</a>
+        <a href="products.html" class="block py-2">Products</a>
+        <a href="news.html" class="block py-2">News</a>
+        <a href="about.html" class="block py-2 text-primary">About Us</a>
+        <a href="contact.html" class="block py-2">Contact Us</a>
+      </div>
+    </div>
+  </header>
+
+  <main class="pt-24 pb-16">
+    <div class="container mx-auto px-4 lg:px-8">
+      <div class="max-w-4xl mx-auto" data-aos="fade-up">
+        <p class="text-primary font-medium uppercase tracking-wider mb-2">Company Profile</p>
+        <h1 class="font-heading text-4xl lg:text-5xl text-secondary mb-6">About Jinan Bison Machinery</h1>
+        <img src="images/about/about-factory.jpg" onerror="this.src='https://images.unsplash.com/photo-1581094794329-cb85cdea0d95?w=1200&q=80'" alt="Factory" class="rounded-2xl w-full aspect-video object-cover mb-10 shadow-lg">
+        
+        <div class="prose prose-lg max-w-none text-gray-600 space-y-4">
+          <p>Jinan Bison Machinery Co., Ltd. is a professional commercial vehicle exporter based in China, specializing in providing reliable transportation solutions for customers worldwide, especially in Africa, the Middle East, Southeast Asia, and South America.</p>
+          <p>With years of experience in international trade and vehicle export, Bison Machinery focuses on supplying high-quality new trucks, used trucks, semi trailers, buses, and truck spare parts to meet the different needs of global transportation businesses.</p>
+          <p>We are committed to customized design, reliable quality, efficient logistics solutions and professional after-sales support. Our goal is to help customers save time and cost while building long-term partnerships based on trust and performance.</p>
+        </div>
+
+        <div class="grid sm:grid-cols-2 lg:grid-cols-4 gap-6 mt-12">
+          <div class="bg-gray-50 rounded-xl p-6 text-center">
+            <div class="text-3xl font-heading text-primary mb-1">10+</div>
+            <div class="text-sm text-gray-500">Years Experience</div>
+          </div>
+          <div class="bg-gray-50 rounded-xl p-6 text-center">
+            <div class="text-3xl font-heading text-primary mb-1">100</div>
+            <div class="text-sm text-gray-500">vehicles / Month</div>
+          </div>
+          <div class="bg-gray-50 rounded-xl p-6 text-center">
+            <div class="text-3xl font-heading text-primary mb-1">5000</div>
+            <div class="text-sm text-gray-500">m² Factory</div>
+          </div>
+          <div class="bg-gray-50 rounded-xl p-6 text-center">
+            <div class="text-3xl font-heading text-primary mb-1">Global</div>
+            <div class="text-sm text-gray-500">Service Network</div>
+          </div>
+        </div>
+
+        <div class="mt-12 text-center">
+          <a href="contact.html" class="inline-flex items-center gap-2 bg-primary hover:bg-secondary text-white px-8 py-3.5 rounded-full font-semibold transition-colors">Contact Us for Cooperation</a>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <footer class="bg-secondary text-white py-10">
+    <div class="container mx-auto px-4 text-center text-sm text-white/60">
+      <p>© 2026 Jinan Bison Machinery Co., Ltd. All Rights Reserved. | Phone : +15361786521 </p>
+    </div>
+  </footer>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
